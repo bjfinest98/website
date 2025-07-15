@@ -13,25 +13,110 @@ body{
 
 
 .overlay{
-    background-color: #00000046;
+    background-color: #00000042;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0%;
     height: 100%;
     width: 100%;
     /* z-index: 1; */
 }
 .carousel-caption{
     z-index: 10;
-    bottom: 30%;
+    bottom: 30% !important;
 }
 .carousel-caption h5{
-    font-size: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    
 }
 
 .accordion-button{
     font-size: 1.2rem;
 }
 .carousel-caption p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    padding-top: 10px;
 }
+.glass{
+    background-color: #000000;
+    /* color: rgb(7, 7, 7); */
+    padding-bottom: 20px;
+
+}
+.glass h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white !important;
+}
+/* .accordion-body{
+    color: white;
+} */
+ .navbar-nav{
+    margin-left: 420px;
+    /* text-align: end; */
+    font-size: large;
+    gap: 20px;
+ }
+ .how{
+    border-radius: 5px;
+    
+ }
+ .signin{
+    background-color: #ffffff;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    height: fit-content;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3rem 4rem;
+   margin-top: 4rem;
+ }
+ .signin h1{
+    padding-top: 20px;
+ }
+ .signin form{
+
+ }
+ label{
+    display: block;
+    
+ }
+ input{
+    width: 100% !important;
+    height: 30px;
+    
+ }
+ .name{
+width: 60% !important;
+height: 30px;
+ }
+
+
+
+ .login{
+    background-color: #ffffff;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    height: fit-content;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3rem 4rem;
+   margin-top: 3rem;
+ }
+ .login h1{
+    padding-top: 20px;
+ }
+ li{
+    font-size: 17px;
+ }
+ span{
+    font-size: 17px;
+ }
+ .yes{
+    width: 40% !important;
+    height: 30px;
+ }
